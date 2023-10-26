@@ -253,7 +253,7 @@ func v1_xcash_dpops_unauthorized_stats(c *fiber.Ctx) error {
   return c.JSON(output)
 }
 
-func v1_xcash_dpops_unauthorized_delegates_registered(c *fiber.Ctx) error {
+func getdelegatesstatistics_registered(c *fiber.Ctx) error {
 
   // Variables
   output:=[]*v1XcashDpopsUnauthorizedDelegatesBasicData{}
@@ -375,7 +375,7 @@ func v1_xcash_dpops_unauthorized_delegates_registered(c *fiber.Ctx) error {
   return c.JSON(output)
 }
 
-func v1_xcash_dpops_unauthorized_delegates_online(c *fiber.Ctx) error {
+func getdelegatesstatistics_online(c *fiber.Ctx) error {
 
   // Variables
   output:=[]*v1XcashDpopsUnauthorizedDelegatesBasicData{}
@@ -488,7 +488,7 @@ func v1_xcash_dpops_unauthorized_delegates_online(c *fiber.Ctx) error {
   return c.JSON(output)
 }
 
-func v1_xcash_dpops_unauthorized_delegates_active(c *fiber.Ctx) error {
+func getdelegatesstatistics_active(c *fiber.Ctx) error {
 
   // Variables
   output:=[]*v1XcashDpopsUnauthorizedDelegatesBasicData{}
@@ -613,7 +613,7 @@ func v1_xcash_dpops_unauthorized_delegates_active(c *fiber.Ctx) error {
   return c.JSON(output)
 }
 
-func v1_xcash_dpops_unauthorized_delegates(c *fiber.Ctx) error {
+func getdelegatesstatistics(c *fiber.Ctx) error {
 
   // Variables
   output_data:=[]*v1XcashDpopsUnauthorizedDelegatesBasicData{}
@@ -773,7 +773,7 @@ func v1_xcash_dpops_unauthorized_delegates(c *fiber.Ctx) error {
   return c.JSON(output)
 }
 
-func v1_xcash_dpops_unauthorized_delegates_rounds(c *fiber.Ctx) error {
+func getdelegatesstatistics_rounds(c *fiber.Ctx) error {
 
   // Variables
   var output v1XcashDpopsUnauthorizedDelegatesRounds
@@ -841,7 +841,7 @@ func v1_xcash_dpops_unauthorized_delegates_rounds(c *fiber.Ctx) error {
   return c.JSON(output)
 }
 
-func v1_xcash_dpops_unauthorized_delegates_votes(c *fiber.Ctx) error {
+func getdelegatesstatistics_votes(c *fiber.Ctx) error {
 
   // Variables
   output:=[]*v1XcashDpopsUnauthorizedDelegatesVotes{}
