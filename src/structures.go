@@ -333,7 +333,7 @@ type v1XcashDpopsUnauthorizedStats struct {
 	CurrentBlockVerifiersValidAmount              int    `json:"currentBlockVerifiersValidAmount"`
 }
 
-type getdelegatesstatisticsstruct {
+type getdelegatesstatistics struct {
 	Votes                    int64  `json:"votes"`
 	Voters                   int    `json:"voters"`
 	IPAdress                 string `json:"IPAdress"`
